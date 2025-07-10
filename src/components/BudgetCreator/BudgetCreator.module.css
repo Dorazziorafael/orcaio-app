@@ -1,0 +1,101 @@
+/* src/components/BudgetCreator/BudgetCreator.module.css */
+
+.section {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: var(--raio-borda);
+  border: 1px solid var(--cor-borda);
+}
+
+.section h2 {
+  margin-top: 0;
+  border-bottom: 1px solid var(--cor-borda);
+  padding-bottom: 0.5rem;
+}
+
+.section select, .section input {
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+  font-size: 1em;
+}
+
+.addItemForm {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addItemForm select {
+  flex-grow: 1;
+}
+
+.section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.section th, .section td {
+  border-bottom: 1px solid var(--cor-borda);
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.section th {
+  background-color: var(--cor-fundo-secundario);
+}
+
+.quantityInput {
+  width: 70px;
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+  font-size: 1em;
+}
+
+.deleteBtn {
+  background-color: var(--cor-perigo);
+}
+.deleteBtn:hover {
+  background-color: var(--cor-perigo-hover);
+}
+
+.summary {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: var(--raio-borda);
+  border: 1px solid var(--cor-borda);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.summaryLine {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.summaryLine label {
+  font-weight: bold;
+}
+
+.summaryInput {
+  width: 120px;
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+  font-size: 1em;
+  text-align: right;
+}
+
+.grandTotal {
+  font-size: 1.8em;
+  font-weight: bold;
+}

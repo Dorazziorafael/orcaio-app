@@ -1,0 +1,89 @@
+/* src/components/MaterialsManager/MaterialsManager.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.listSection {
+  margin-bottom: 2rem;
+}
+
+.listSection table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.listSection th, .listSection td {
+  border: 1px solid var(--cor-borda);
+  padding: 8px;
+  text-align: left;
+}
+
+.listSection th {
+  background-color: var(--cor-fundo-secundario);
+}
+
+.listSection td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.editBtn {
+  background-color: var(--cor-acento);
+}
+.editBtn:hover {
+  background-color: #0056b3;
+}
+
+.deleteBtn {
+  background-color: var(--cor-perigo);
+}
+.deleteBtn:hover {
+  background-color: var(--cor-perigo-hover);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-weight: bold;
+}
+
+.inputGroup input, .inputGroup select {
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-borda);
+  font-size: 1em;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.cancelBtn {
+  background-color: #6c757d;
+}
+.cancelBtn:hover {
+  background-color: #5a6268;
+}
